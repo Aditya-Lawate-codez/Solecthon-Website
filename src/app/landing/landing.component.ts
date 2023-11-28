@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LandingComponent implements OnInit {
 
-  constructor() { }
-
+  constructor() { 
+    var image:string;
+    image = ".\assets\images\logo.svg"
+  }
+  
   ngOnInit(): void {
+  
+
   }
 
 }
